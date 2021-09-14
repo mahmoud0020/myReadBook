@@ -23,13 +23,13 @@ To get started developing right away:
 └── src
     ├── components
     |   ├── HomeComponents
-    |       ├── CurrentlyReading.jsx
-    |       ├── Read.jsx
-    |       ├── WantToRead.jsx 
+    |       ├── CurrentlyReading.jsx # show Books that has shelf type currentlyReding
+    |       ├── Read.jsx # show Books that has shelf type read
+    |       ├── WantToRead.jsx # show Books that has shelf type wantToRead
     |   ├── SearchComponents
-    |       ├── FindBook.jsx 
-    |       ├── ShowFindBook.jsx 
-    |   ├── SelfControl.jsx
+    |       ├── FindBook.jsx # search for Books in api  
+    |       ├── ShowFindBook.jsx # show matched Books from component FindBook-Component
+    |   └── SelfControl.jsx
     ├── App.css # Styles for your app. Feel free to customize this as you desire.
     ├── App.js # This is the root of your app. Contains static HTML right now.
     ├── App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
