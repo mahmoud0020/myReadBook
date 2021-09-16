@@ -33,7 +33,7 @@ to run project
     |    ├──SearchComponents
     |    |    ├──FindBook.js  #this component search for book in api and send result to ShowFindBook component.
     |    |    └──ShowFindBook.js # this component show all matched Books from FindBook component.
-    |    └──ShelfControl.js   
+    |    └──ShelfControl.js   # this component is controll of shelf and change it for each Book would you want  
     ├── App.css # Styles for your app. Feel free to customize this as you desire.
     ├── App.js # This is the root of your app. Contains static HTML right now.
     ├── App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
