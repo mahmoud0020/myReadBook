@@ -4,9 +4,8 @@ and user can search for multiple books and save it directly in main page .
 
 * this project is consists of 3 components to show different status of Books in main page status['currentlyReading,WantToRead,Read'] and cosists of 2 components [FindBook.js , ShowFindBook] to search in the api ['BookApi'] and show the books in search page .
 and consist of compoenent that change the shelf of Book ['ShelfControl'] and the image below  is more details about components in this project 
+![Capture2](https://user-images.githubusercontent.com/68845990/133677870-5c7606e5-f3c3-4827-919c-2ddf07af551b.PNG)
 ![Capture](https://user-images.githubusercontent.com/68845990/133677696-97d79b50-22e5-49f2-b0a1-a2ad47ff1753.PNG)
-
-![Capture](https://user-images.githubusercontent.com/68845990/133677733-f93d6466-bda9-4e87-b820-39f33b90a79a.PNG)
 
 
 ## Run Project 
