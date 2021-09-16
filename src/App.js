@@ -42,10 +42,16 @@ class BooksApp extends React.Component {
 
   //this method change shelf book and update state 
   changeShelfBook=(book,shelf)=>{
-    BooksAPI.update(book,shelf);
-    BooksAPI.getAll().then((book) => {
+
+    BooksAPI.update(book,shelf).then(()=>{
       book.shelf=shelf;
-      this.setState({  Books:book })
+      // i get this line form github in  https://github.com/sarah-maris/reactnd-project-myreads/blob/master/src/components/Search.js
+      // i filter books in main to ensure a uniqe books in main 
+      const addBook= this.state.Books.filter(e =>e.id !== book.id);
+      addBook.push(book)
+      this.setState({
+        Books:addBook
+      })
     })
   }
   render() {
