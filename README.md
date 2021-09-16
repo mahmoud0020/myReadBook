@@ -1,15 +1,20 @@
 # MyReads Project
+this is MyReads project with the final update that project is show multiple books and the user can save it to read or want to read or currently reading it 
+and user can search for multiple books and save it directly in main page . 
 
-This is the starter template for the final assessment project for Udacity's React Fundamentals course. The goal of this template is to save you time by providing a static example of the CSS and HTML markup that may be used, but without any of the React code that is needed to complete the project. If you choose to start with this template, your job will be to add interactivity to the app by refactoring the static code in this template.
+* this project is consists of 3 components to show different status of Books in main page status['currentlyReading,WantToRead,Read'] and cosists of 2 components [FindBook.js , ShowFindBook] to search in the api ['BookApi'] and show the books in search page .
+and consist of compoenent that change the shelf of Book ['ShelfControl'] and the image below  is more details about components in this project 
+![Capture](https://user-images.githubusercontent.com/68845990/133677696-97d79b50-22e5-49f2-b0a1-a2ad47ff1753.PNG)
 
-Of course, you are free to start this project from scratch if you wish! Just be sure to use [Create React App](https://github.com/facebookincubator/create-react-app) to bootstrap the project.
+![Capture](https://user-images.githubusercontent.com/68845990/133677733-f93d6466-bda9-4e87-b820-39f33b90a79a.PNG)
 
-## TL;DR
 
-To get started developing right away:
+## Run Project 
 
-* install all project dependencies with `npm install`
-* start the development server with `npm start`
+to run project 
+#first download files of project 
+#second run "npm install" in command line  to install all dependencies pakages.
+#finally run "npm start" in command line to lunch this project 
 
 ## What You're Getting
 ```bash
@@ -21,6 +26,15 @@ To get started developing right away:
 │   ├── favicon.ico # React Icon, You may change if you wish.
 │   └── index.html # DO NOT MODIFY
 └── src
+    ├──Components
+    |    ├──HomeComponents
+    |    |   ├──Read.js #this component show all Books that user is Read.
+    |    |   ├──CurrentlyReading.js #this component show all Books that user is CurrentlyReading.
+    |    |   └──WantToRead.js    #this component show all Books that user is WantToRead.
+    |    ├──SearchComponents
+    |    |    ├──FindBook.js  #this component search for book in api and send result to ShowFindBook component.
+    |    |    └──ShowFindBook.js # this component show all matched Books from FindBook component.
+    |    └──ShelfControl.js   
     ├── App.css # Styles for your app. Feel free to customize this as you desire.
     ├── App.js # This is the root of your app. Contains static HTML right now.
     ├── App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
